@@ -1,0 +1,13 @@
+---
+title: IPv6 Security Concerns
+date: '2024-03-01'
+tags: ['network','protocols','ipv6','security']
+draft: false
+summary: My personal concerns with IPv6 security.
+---
+
+# Why the sudden concern?
+
+It's true, internet protocol has been around for some time. What would make IPv6 less secure than IPv4? One does not offer greater security over the other technically... but due to the limited number of assignable addresses available with Internet Protocol Version 4, the use of network address translation became common practice. NAT consists of one device, generally a router that hosts the public IPv4 address. The router is tasked with coordinating network traffic between the LAN devices to the public internet. Whether the security benefits of using a NAT were the intention or a side-effedct, it did make the internet safer for most devices. While it is possible to NAT IPv6, there is much less need given the size of the available address pool. Most devices are receiving a public routable address without the security benefits of running behind a NAT. With the use of IPv4 and NAT, unless a device was configured as a DMZ or some type of port forwarding had been set, someone scanning the public internet wasn't going to be able to see open ports of the devices behind the NAT device. Now it is easier than ever to get a direct connection right to your mobile device.
+
+Granted most mobile devices should not have open ports, but as malware evolves it could leave your device open to malicious connections. 

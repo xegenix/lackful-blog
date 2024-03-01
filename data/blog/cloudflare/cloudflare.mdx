@@ -1,0 +1,52 @@
+---
+title: Cloudflare Index
+date: '2024-02-29'
+tags: ['cloudflare']
+draft: false
+summary: Index of Cloudflare related posts.
+---
+
+Welcome to the wonderful world of Cloudflare. All posts related to Cloudflare and it's products are contained within this page. 
+
+
+
+Your source for anything related to Cloudflare. 
+# Guides
+
+- DNS
+- Pages - Pages is a platform that allows your website to live on the edge, content is available across all Cloudflare CDN servers and served from the requestors closest CDN server. Where else are you going to get lightening fast region-specific content delivery for free? 
+- Tunnels - Connect you server to Cloudflare using a tunnel, protect your site from attacks, and host content without exposing a single port to public address space.
+> Serving your applications without exposing a single port to the public address space, meet the Cloudflare Tunnel.
+
+-
+
+A sample post with markdown.
+
+## Inline Highlighting
+
+Sample of inline highlighting `sum = parseInt(num1) + parseInt(num2)`
+
+## Code Blocks
+
+Some Javascript code
+
+```javascript
+var num1, num2, sum
+num1 = prompt('Enter first number')
+num2 = prompt('Enter second number')
+sum = parseInt(num1) + parseInt(num2) // "+" means "add"
+alert('Sum = ' + sum) // "+" means combine into a string
+```
+
+Some Python code 🐍
+
+```python
+def fib():
+    a, b = 0, 1
+    while True:            # First iteration:
+        yield a            # yield 0 to start with and then
+        a, b = b, a + b    # a will now be 1, and b will also be 1, (0 + 1)
+
+for index, fibonacci_number in zip(range(10), fib()):
+     print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
+```
